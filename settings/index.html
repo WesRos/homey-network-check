@@ -11,16 +11,21 @@
             <legend>Opties</legend>
 
             <div class="field row">
-                <label for="hbeat" data-i18n="settings.heartbeat"></label>
+				<label for="hbeat" data-i18n="settings.heartbeat"></label>
                 <select name="hbeat" id="hbeat" size="1">
                     <option value=""" data-i18n="settings.nobeat"></option>
                     <option value="1"" data-i18n="settings.yesbeat"></option>
                 </select>
-            </div>
+				<br><br>
+				
+                <label for="ipAddr" data-i18n="settings.IPaddress"></label>
+				<input type="text" name="ipAddr" id="ipAddr" class="code">
+			</div>
         </fieldset>
-
+		
         <button class="right" onclick="save()"" data-i18n="settings.save"></button>
         <br><br>
+       
         <fieldset>
             <legend>Info</legend>
             
@@ -37,12 +42,14 @@
             
             // load settings from persistemt storage
             myGetOption('hbeat');
+			myGetOption('ipAddr');
         }
         
 
         // save settings to persistemt storage
         function save() {
             mySetOption('hbeat');
+			mySetOption('ipAddr');
         }
 
         function test() {
