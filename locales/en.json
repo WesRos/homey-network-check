@@ -14,6 +14,7 @@
         "heartbeat": "Green \"heartbeat\"",
         "nobeat": "No, only pulse when there is a problem",
         "yesbeat": "Yes, show a short pulse every time we're checking",
+        "IPaddress": "IP test address:",
         "save": "Save",
         "test": "Test",
         "testdesc": "Using the test button triggers a networkinterruption. Within one minute, Homey will trigger the normal flow for network interruption, in one minute followed by the trigger for a restored connection."
