@@ -14,6 +14,7 @@
         "heartbeat": "Groene \"hartslag\"",
         "nobeat": "Nee, allen pulseren bij problemen",
         "yesbeat": "Ja, iedere minuut een korte puls als alles goed is",
+        "IPaddress": "IP test adres:",
         "save": "Opslaan",
         "test": "Testen",
         "testdesc": "Met de testknop trigger je een netwerkstoring. Binnen een minuut zal de normale flow voor netwerkstoring worden geactiveerd en een minuut later die voor verbindingsherstel"
